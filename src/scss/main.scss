@@ -1,0 +1,14 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// SECTIONS //
+@import "replies";
+@import "form";
+
+html {
+  @media (max-width: $breakpoint-md) {
+    font-size: 12px;
+  }
+}

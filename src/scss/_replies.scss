@@ -1,0 +1,68 @@
+.replies {
+  background-color: $color-blue-violet;
+
+  .replies__inner {
+    padding: 5% 0 0 30%;
+    width: 100vw;
+    height: 100vh;
+
+    .replies__body {
+      padding: 10px 0 0 40px;
+      height: 100%;
+
+      .replies__title {
+        margin-bottom: 50px;
+        h2 {
+          font-weight: 400;
+          font-size: $base * 10;
+          letter-spacing: 1px;
+        }
+      }
+
+      .replies__item {
+        margin-bottom: 10px;
+        border-bottom: 1px solid $color-grey;
+        padding-bottom: 10px;
+        width: 44%;
+        font-weight: 400;
+        font-size: $base * 3.5;
+
+        @media (max-width: $breakpoint-md) {
+          width: 70%;
+        }
+
+        .replies__data {
+          margin-bottom: 5px;
+        }
+
+        .replies__contacts {
+          margin-bottom: 5px;
+        }
+
+        .replies__message {
+          line-height: 20px;
+        }
+      }
+    }
+
+    .replies__pagination {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      width: 40%;
+
+      @media (max-width: $breakpoint-md) {
+        width: 70%;
+      }
+
+      .replies__btn {
+        font-size: $base * 4;
+        color: $color-white;
+      }
+
+      .replies__count {
+        font-size: $base * 3;
+      }
+    }
+  }
+}
