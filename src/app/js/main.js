@@ -1,0 +1,14 @@
+!function(e){var n={};function r(_){if(n[_])return n[_].exports;var t=n[_]={i:_,l:!1,exports:{}};return e[_].call(t.exports,t,t.exports,r),t.l=!0,t.exports}r.m=e,r.c=n,r.d=function(e,n,_){r.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:_})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,n){if(1&n&&(e=r(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var _=Object.create(null);if(r.r(_),Object.defineProperty(_,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var t in e)r.d(_,t,function(n){return e[n]}.bind(null,t));return _},r.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(n,"a",n),n},r.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},r.p="",r(r.s="./src/js/main.js")}({"./src/js/_vars.js":
+/*!*************************!*\
+  !*** ./src/js/_vars.js ***!
+  \*************************/
+/*! exports provided: default */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__["default"] = ({\n  $window: window,\n  $document: document,\n  $html: document.documentElement,\n  $body: document.body\n});\n\n//# sourceURL=webpack:///./src/js/_vars.js?')},"./src/js/functions/webp.js":
+/*!**********************************!*\
+  !*** ./src/js/functions/webp.js ***!
+  \**********************************/
+/*! no static exports found */function(module,exports){eval('function testWebP(callback) {\n  var webP = new Image();\n\n  webP.onload = webP.onerror = function () {\n    callback(webP.height == 2);\n  };\n\n  webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";\n}\n\ntestWebP(function (support) {\n  if (support == true) {\n    document.querySelector("body").classList.add("webp");\n  } else {\n    document.querySelector("body").classList.add("no-webp");\n  }\n});\n\n//# sourceURL=webpack:///./src/js/functions/webp.js?')},"./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+/*! no exports provided */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _vars__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_vars */ "./src/js/_vars.js");\n/* harmony import */ var _functions_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions/webp */ "./src/js/functions/webp.js");\n/* harmony import */ var _functions_webp__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_functions_webp__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?')}});
+//# sourceMappingURL=main.js.map
