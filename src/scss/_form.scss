@@ -1,9 +1,11 @@
 .send {
   width: 100vw;
-  height: 100vh;
 
   .send__inner {
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
 
     .send__title {
@@ -87,12 +89,72 @@
     position: absolute;
     left: 0;
     top: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding-left: 15px;
-    width: 60px;
-    height: 60px;
-    font-size: $base * 8;
+    border-radius: 20px;
+    font-size: $base * 10;
+    color: $color-black;
+    z-index: 5;
     cursor: pointer;
+
+    .form__select-header {
+      position: relative;
+      height: 60px;
+      padding: 13px 0;
+      width: 60px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        border-top: 5px solid $color-black;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+      }
+    }
+
+    .form__select-header_active {
+      &::after {
+        border-top: 0;
+        border-bottom: 5px solid $color-black;
+      }
+    }
+
+    .form__select-body {
+      display: none;
+      border: 1px solid $color-black;
+      background: $color-white;
+
+      .form__list-item {
+        padding: 5px 0;
+
+        &:hover {
+          background: #ccc;
+        }
+      }
+    }
+
+    .form__select-body_active {
+      display: block;
+      animation: showOption 0.8s;
+    }
+  }
+}
+
+.iti__flag {
+  background-image: url("img/flags.png");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("img/flags@2x.png");}
+}
+
+@keyframes showOption {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

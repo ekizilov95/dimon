@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9a0719-9d3d-4c76-915b-613c61b4ad70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/flags@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/vendor/intlTelInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fonts/OpenSans-Bold.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/replies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/replies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_replies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_replies.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +36,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/vendor" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="C:\work\dimon\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\dimon\src\js\vendor" />
+      <recent name="C:\work\dimon\app\js" />
+      <recent name="C:\work\dimon\src\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\dimon\src\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,7 +69,9 @@
       <workItem from="1616519168602" duration="2606000" />
       <workItem from="1616573336220" duration="827000" />
       <workItem from="1616574552897" duration="150000" />
-      <workItem from="1616575560365" duration="467000" />
+      <workItem from="1616575560365" duration="1285000" />
+      <workItem from="1616578182021" duration="22129000" />
+      <workItem from="1616602999047" duration="1114000" />
     </task>
     <servers />
   </component>
